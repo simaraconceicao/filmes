@@ -1,11 +1,9 @@
 import './Styles/global.css'
-import Home from './Pages/Home'
-
+import Routes from './Routes/Routes'
 export default function App(){
   return(    
     <>
-      <Home/>
-      <h1>vamos fazer um app lindão</h1>  
+      <Routes/>
     </>
     
   )
